@@ -12,9 +12,9 @@ Students living in hostels or PGs struggle to find healthy and affordable meals.
 Busy working professionals don’t have time for meal planning and preparation.
 Elderly people often find food apps confusing.
 Restaurant-centric food delivery apps are costly and not ideal for daily meals.
+
 💡 Solution Overview
 Apna Tiffin offers:
-
 A list of nearby tiffin vendors
 Search by vendor name or location
 Easy login and registration
