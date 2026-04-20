@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- TODO: Application Label -->
+    <string name="app_name">Apna Tiffin</string>
+
+    <!-- TODO: to search vendor -->
+    <string name="text1">Step 1 : Click on search bar.</string>
+    <string name="text2">Step 2 : search with Mess name or location.</string>
+    <string name="text3">Step 3 : Choose the tiffin that you want and contact to tiffin vendor by using mobile number.</string>
+
+    <!-- TODO: edit account details -->
+    <string name="text4">Step 1: Go to Account setting</string>
+    <string name="text5">Step 2: Edit your acc details</string>
+    <string name="text6">Step 3: Save the details</string>
+
+    <!-- TODO: change password -->
+    <string name="text7">Step 1: Go to Account setting</string>
+    <string name="text8">Step 2: Edit your password</string>
+    <string name="text9">Step 3: Save the new password</string>
+
+    <!-- TODO: contact with developer -->
+    <string name="text10">Step 1: Go to Account setting</string>
+    <string name="text11">Step 2: Click on "Contact" option</string>
+    <string name="text12">Step 3: WhatsApp will open then contact with us.</string>
+
+    <!-- TODO: contact with tiffin vendor -->
+    <string name="text13">Step 1: Click on mess from list</string>
+    <string name="text14">Step 2: Details will open</string>
+    <string name="text15">Step 3: Click on vendor number then Dialer will open </string>
+
+</resources>

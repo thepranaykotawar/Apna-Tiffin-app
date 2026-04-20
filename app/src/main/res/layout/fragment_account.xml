@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    tools:context=".AccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+
+        <ImageView
+            android:id="@+id/back12"
+            android:layout_width="55dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img_14"
+            tools:ignore="ContentDescription,RtlHardcoded,ImageContrastCheck" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/ap5"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APNA TIFFIN"
+            android:textSize="35sp"
+            android:fontFamily="serif-monospace"
+            style="@style/TEXT"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="Enter Name"
+        android:textColorHint="#DD504C4C"
+        android:inputType="textPersonName"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textSize="18sp"
+        tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnEditPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/btn_design"
+        android:clickable="true"
+        android:text="Edit Password"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSave"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/btn_design"
+        android:clickable="true"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+</LinearLayout>

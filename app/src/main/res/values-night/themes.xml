@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ApnaTiffin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+        <style name="SCREEN">
+            <item name="android:background">#000000</item>
+        </style>
+
+        <!-- Custom Dark Text Color -->
+        <style name="TEXT">
+            <item name="android:textColor">#FFFFFF</item>
+        </style>
+
+        <!-- Custom Dark Button Style -->
+        <style name="BUTTON">
+            <item name="android:background">@color/white</item>
+            <item name="android:textColor">#000000</item>
+        </style>
+
+    <style name="cardBackground">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Textcolor">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

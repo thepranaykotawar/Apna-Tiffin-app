@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    style="@style/cardBackground"
+    android:padding="3dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mess1"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/text2"
+            android:layout_toRightOf="@+id/img"
+            android:text="location"
+            style="@style/Textcolor"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/img"
+            android:singleLine="true"
+            android:text="messname"
+            style="@style/Textcolor"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck">
+
+        </TextView>
+   </RelativeLayout>
+</androidx.cardview.widget.CardView>

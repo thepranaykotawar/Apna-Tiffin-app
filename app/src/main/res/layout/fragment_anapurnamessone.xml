@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/SCREEN"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Anapurnamessone">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anapurna Mess"
+        android:textSize="35dp"
+        style="@style/TEXT"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="70dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="234dp"
+                    android:layout_height="127dp"
+                    android:src="@drawable/img_13"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:text="Owner: Dipak Joshi."
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:text="Address: Guru nagar."
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#C8494545" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:text="Price Details:"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="₹3800 per month ( 28 days )"
+                android:textSize="20dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#C8494545" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:text="Tiffin Ingredients:"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="1. Salad"
+                android:textSize="20dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="2. Roti  x5"
+                android:textSize="20dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="3. Sabji  x1 ( non-veg )"
+                android:textSize="20dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="4. sabji  x1 ( veg )"
+                android:textSize="20dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="5. Rice  x1"
+                android:textSize="20dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#C8494545" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:text="Contact Details:"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="+919876543210"
+                android:autoLink="phone"
+                android:textSize="20dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="#C8494545" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    tools:context=".HelpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/ap5"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APNA TIFFIN"
+            android:textSize="35sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            style="@style/TEXT"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="70sp"
+    android:padding="5dp"
+    tools:ignore="RedundantNamespace">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/help_bkg"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/Heading1TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:text="How to Search Tiffin Vendor?"
+                android:textColor="@color/purple_700"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/btn1"
+                app:layout_constraintTop_toTopOf="@+id/btn1"
+                tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded,RtlSymmetry,SpUsage,TextSizeCheck" />
+
+            <ImageView
+                android:id="@+id/btn1"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_downarrow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="12dp"
+                android:padding="5dp"
+                android:text="@string/text1"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Heading1TV"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:padding="5sp"
+                android:text="@string/text2"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text1"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:padding="5dp"
+                android:text="@string/text3"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text2"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/help_bkg"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/Heading2TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:text="How to change Acc Details?"
+                android:textColor="@color/purple_700"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/btn2"
+                app:layout_constraintTop_toTopOf="@+id/btn2"
+                tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded,RtlSymmetry,SpUsage,TextSizeCheck" />
+
+            <ImageView
+                android:id="@+id/btn2"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_downarrow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text3"
+                tools:ignore="ContentDescription,MissingConstraints,NotSibling" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="12dp"
+                android:padding="5dp"
+                android:text="@string/text4"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Heading2TV"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:padding="5sp"
+                android:text="@string/text5"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text4"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:padding="5dp"
+                android:text="@string/text6"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text5"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/help_bkg"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/Heading3TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:text="How to Change Password?"
+                android:textColor="@color/purple_700"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/btn3"
+                app:layout_constraintTop_toTopOf="@+id/btn3"
+                tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded,RtlSymmetry,SpUsage,TextSizeCheck" />
+
+            <ImageView
+                android:id="@+id/btn3"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_downarrow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text6"
+                tools:ignore="ContentDescription,MissingConstraints,NotSibling" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="12dp"
+                android:padding="5dp"
+                android:text="@string/text7"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Heading3TV"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:padding="5sp"
+                android:text="@string/text8"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text7"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:padding="5dp"
+                android:text="@string/text9"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text8"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/help_bkg"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/Heading4TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:text="How to Contact with Developer?"
+                android:textColor="@color/purple_700"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/btn4"
+                app:layout_constraintTop_toTopOf="@+id/btn4"
+                tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded,RtlSymmetry,SpUsage,TextSizeCheck" />
+
+            <ImageView
+                android:id="@+id/btn4"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_downarrow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text9"
+                tools:ignore="ContentDescription,MissingConstraints,NotSibling" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="12dp"
+                android:padding="5dp"
+                android:text="@string/text10"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Heading4TV"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:padding="5sp"
+                android:text="@string/text11"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text10"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:padding="5dp"
+                android:text="@string/text12"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text11"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/help_bkg"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/Heading5TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:text="How to Contact with Vendor?"
+                android:textColor="@color/purple_700"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/btn5"
+                app:layout_constraintTop_toTopOf="@+id/btn5"
+                tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded,RtlSymmetry,SpUsage,TextSizeCheck" />
+
+            <ImageView
+                android:id="@+id/btn5"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_downarrow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text9"
+                tools:ignore="ContentDescription,MissingConstraints,NotSibling" />
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="12dp"
+                android:padding="5dp"
+                android:text="@string/text13"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Heading5TV"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:padding="5sp"
+                android:text="@string/text14"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text13"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:padding="5dp"
+                android:text="@string/text15"
+                style="@style/TEXT"
+                android:textSize="17dp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text14"
+                tools:ignore="MissingConstraints,RtlHardcoded,SpUsage" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
