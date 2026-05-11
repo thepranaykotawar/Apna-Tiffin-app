@@ -1,4 +1,4 @@
-🍱 Apna Tiffin – Android Tiffin Delivery Application
+🍱 Apna Tiffin – Android Tiffin Service Application
 Apna Tiffin is an Android application that helps users find affordable, healthy, and home-cooked tiffin services near them.
 The app is specially designed for students, working professionals, and elderly people who live away from home and need reliable meal options.
 
