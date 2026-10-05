@@ -24,6 +24,7 @@ Clean UI with simple navigation
 This enables users to find daily meal options without hassle.
 
 🚀 Key Features
+
 🔹 User Authentication
 Secure login and registration
 Easy access for repeat users
