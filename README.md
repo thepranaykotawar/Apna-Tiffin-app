@@ -27,17 +27,21 @@ This enables users to find daily meal options without hassle.
 🔹 User Authentication
 Secure login and registration
 Easy access for repeat users
+
 🔹 Home Screen
 List of nearby tiffin providers
 Search by name or location
 Simple UI with minimal steps
+
 🔹 Vendor Details
 Provider name
 Menu items and pricing
 Contact info and meal details
+
 🔹 Help & Support
 FAQ section
 Developer contact and guidance
+
 🔹 Profile & Settings
 View and update user profile
 App settings
